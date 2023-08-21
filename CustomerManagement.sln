@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICustomerManagement", "APICustomerManagement\APICustomerManagement.csproj", "{08DE1BFE-B248-4859-A0A7-925010AAB250}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayerCustomerManagement", "BusinessLogicLayerCustomerManagement\BusinessLogicLayerCustomerManagement.csproj", "{9472F196-6EFD-4C3C-B32E-69CE8B39AF16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayerCustomerManagement", "DataLayerCustomerManagement\DataLayerCustomerManagement.csproj", "{FB158F85-C5D2-43E4-9031-BF585D2B0E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPICustomerManagement", "TestAPICustomerManagement\TestAPICustomerManagement.csproj", "{D40CB848-7EDE-4EFC-8328-D3C39863AE0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PPTX", "PPTX", "{9A5C416F-CE14-4E03-AE65-B817A3F36411}"
+	ProjectSection(SolutionItems) = preProject
+		APICustomerManagement\Customer Management API.pptx = APICustomerManagement\Customer Management API.pptx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{BAA045F7-65DB-439D-A375-A01AE5107C70}"
+	ProjectSection(SolutionItems) = preProject
+		Clients.sql = Clients.sql
+		CustomerManagemenDB.bak = CustomerManagemenDB.bak
+		Users.sql = Users.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08DE1BFE-B248-4859-A0A7-925010AAB250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DE1BFE-B248-4859-A0A7-925010AAB250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DE1BFE-B248-4859-A0A7-925010AAB250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DE1BFE-B248-4859-A0A7-925010AAB250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9472F196-6EFD-4C3C-B32E-69CE8B39AF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9472F196-6EFD-4C3C-B32E-69CE8B39AF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9472F196-6EFD-4C3C-B32E-69CE8B39AF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9472F196-6EFD-4C3C-B32E-69CE8B39AF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB158F85-C5D2-43E4-9031-BF585D2B0E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB158F85-C5D2-43E4-9031-BF585D2B0E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB158F85-C5D2-43E4-9031-BF585D2B0E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB158F85-C5D2-43E4-9031-BF585D2B0E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40CB848-7EDE-4EFC-8328-D3C39863AE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40CB848-7EDE-4EFC-8328-D3C39863AE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40CB848-7EDE-4EFC-8328-D3C39863AE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40CB848-7EDE-4EFC-8328-D3C39863AE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29F4ED6-8965-4E1F-887B-D9E45308F095}
+	EndGlobalSection
+EndGlobal
